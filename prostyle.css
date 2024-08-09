@@ -1,0 +1,358 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #e3ecf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right:50px;
+    
+
+}
+
+.cta-btn{
+    background-color: #002594;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px goldenrod;
+    transition: 0.1s;
+    margin-right: 350px;
+}
+
+.cta-btn:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+.programme-background{
+    background-image: url("https://img.freepik.com/free-photo/young-man-using-headphones-listen-music-while-working-from-home-office-computer_482257-2358.jpg?t=st=1722159385~exp=1722162985~hmac=61b894d44cea72ce919b76a4960722da35fe15c06e467855c97c4e785da1cf68&w=1380")
+    
+}
+
+.programme-background{
+    text-align:center ;
+    color: white;
+    height: 350px;
+    background-color: #002594;
+    font-size: 40px;
+    padding-top: 125px;
+    font-family: serif;
+}
+
+.cohort-program{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+
+.apply-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.girl{
+    width: 550px;
+    height: 370px;
+}
+
+.apply{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.cohort-program{
+    margin-left: 50px;
+}
+
+.cta{
+    font-size: 40px;
+    font-family: serif;
+    color: #333333;
+}
+
+.apply-text{
+    font-size: 15px;
+    margin-top: 15px;
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.apply-text li{
+    margin-top: 7px;
+    width: 510px;
+
+}
+
+.apply-btn{
+    width: 130px;
+    height: 45px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #002594;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.apply-cta{
+    font-family: serif;
+}
+
+.apply-a{
+    text-decoration: none;
+}
+
+.soft-skills{
+    font-size: 25px;
+    font-family: serif;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+.cta-skills{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-top: 175px;
+}
+
+.cohort-bootcamp{
+    margin-left: 50px;
+}
+
+.bootcamp-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 175px;
+}
+
+.cta-bootcamp{
+    font-size: 40px;
+    font-family: serif;
+    color: #333333;
+    margin-top: 50px;
+}
+
+.footer{
+    display: flex;
+    background-color: #222222;
+    color: white;
+    height: 250px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 40px;
+
+}
+
+.about-list{
+    list-style-type: none;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;  
+    
+}
+.about-list li a{
+    text-decoration: none;
+    color: white;    
+}
+
+.about-us{
+    margin-top: 15px;
+}
+.contact-us{
+    margin-top: 15px;
+}
+.faqs{
+    margin-top: 15px;
+}
+.support{
+    margin-top: 15px;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.searchandsocials{
+    display: flex;
+    flex-direction: column;
+}
+.search-bar{
+    display: flex;
+    flex-direction:row;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.search-btn{
+    background-color:#F9C01E ; 
+    height: 40px;
+    width: 100px;
+}
+
+.search{
+    height: 40px;
+}
+
+.social{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.social-icons{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 30px;
+}
+
+.final-footer{
+    background-color: #000000;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-footer{
+    background-color: #000000;
+    text-align: left;
+    padding-left: 1700px;
+    display: flex;
+    flex-direction:row;
+}
+
+.whatsapp-btn{
+    height: 30px;
+    border-radius: 10px;
+    width: 90px;
+}
+
+.faq{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.faq-container{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-left: 450px;
+}
+
+.faq-item{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+.faq-item:last-child{
+    border-bottom: none; /*Removes the border from the last item */
+}
+
+.faq-question{
+    font-size: 18px;
+    position: relative;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.faq-question::before{
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.faq-question:hover{
+    color: #F9C01E;
+}
+
+details[open] .faq-question::before{
+    content: "-";
+}
+
+.faq-answer{
+    padding: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+details summary{
+    list-style: none;
+    outline: none;
+    cursor: default;
+}
+
+.faq-btn{
+    width: 130px;
+    height: 45px;
+    margin-top: 1px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #002594;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-left: 850px;
+    margin-bottom: 100px;
+}
